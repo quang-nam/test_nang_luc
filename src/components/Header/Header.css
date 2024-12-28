@@ -1,0 +1,64 @@
+.container{
+    background-color: #6E9CF4;
+    ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+}
+.body{
+    display: flex;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    font-weight: bold;
+    color: #0055CC;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    background-color: #0055CC;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px;
+}
+.balance{
+    font-size: 12px;
+    margin: 0;
+}
+.btn{
+    background-color: #0055CC;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    width: 138px;
+    height: 41px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.admin-icon{
+    background-color: transparent;
+    font-size: 14px;
+}
+.admin-text{
+    font-weight: bold;
+}

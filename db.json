@@ -1,0 +1,56 @@
+{
+  "boxes": [
+    {
+      "id": 1,
+      "name": "Box 1"
+    },
+    {
+      "id": 2,
+      "name": "Box 2"
+    },
+    {
+      "id": 3,
+      "name": "Box 3"
+    },
+    {
+      "name": "Box 3",
+      "id": 4
+    }
+  ],
+  "lans": [
+    {
+      "id": 1,
+      "name": "Lan 1"
+    },
+    {
+      "id": 2,
+      "name": "Lan 2"
+    },
+    {
+      "id": 3,
+      "name": "Lan 3"
+    }
+  ],
+  "tableData": [
+    {
+      "id": 1,
+      "boxId": 1,
+      "lanId": 1,
+      "localIP": "192.168.1.1:10000",
+      "publicIP": "172.143.2.6:2000",
+      "proxyPort": "192.168.1.1:5000",
+      "lastReset": "10:44:43 23/12/2024",
+      "status": true
+    },
+    {
+      "id": 2,
+      "boxId": 2,
+      "lanId": 2,
+      "localIP": "192.168.1.1:10001",
+      "publicIP": "172.143.2.6:2001",
+      "proxyPort": "192.168.1.1:5001",
+      "lastReset": "10:44:43 23/12/2024",
+      "status": false
+    }
+  ]
+}

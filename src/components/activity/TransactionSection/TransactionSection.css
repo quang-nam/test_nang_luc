@@ -1,0 +1,32 @@
+.transaction-section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;   
+}
+.transaction-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.transaction-btn{
+    background-color: #0055CC;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.transaction-name{
+    font-weight: 500;
+}
+.transaction-body{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #99bbfa;
+    border-radius: 20px;
+    font-size: 13px;
+}

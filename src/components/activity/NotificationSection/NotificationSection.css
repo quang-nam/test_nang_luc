@@ -1,0 +1,36 @@
+.notification-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+}
+.notification-text{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #99bbfa;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.notification-title{
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.notification-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification-icon-container{
+    display: flex;
+    gap: 5px;
+}
+.notification-icon{
+    background-color: #0055CC;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    
+}

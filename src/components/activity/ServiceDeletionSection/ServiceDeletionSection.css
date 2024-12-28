@@ -1,0 +1,32 @@
+.service-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.service-deletion, 
+.service-expiration{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.service-deletion span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.service-expiration span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.service-deletion-activities{
+    background-color: #99bbfa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.service-expiration-activities{
+    background-color: #99bbfa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}

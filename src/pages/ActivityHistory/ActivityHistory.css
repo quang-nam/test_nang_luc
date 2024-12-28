@@ -1,0 +1,107 @@
+
+body {
+    background-color: #e8f1ff;
+  }
+  
+  .activityhistory-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .tab-button {
+    background-color: #e8f1ff;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .tab-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
+  /* Bảng */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Cố định chiều rộng các cột */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    word-wrap: break-word; /* Xử lý nội dung dài tự động xuống dòng */
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .history-title{
+    width: 20%; /* Cột Title */
+  }
+  
+  .history-desc {
+    width: 60%; /* Cột Description */
+  }
+  
+  .history-date {
+    width: 20%; /* Cột Date */
+  }
+  
+  /* Phân trang */
+  .pagination {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #e8f1ff;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,42 @@
+.recent-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+}
+.recent-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+.recent-btn{
+    background-color: #0055CC;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.recent-body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.recent-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background-color: #99bbfa;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.recent-name{
+    font-weight: 500;
+}
+.recent-time{
+    font-weight: 300;
+}

@@ -1,0 +1,71 @@
+
+.sidebar {
+    background: linear-gradient(105deg, #0045CC 50%, #3171d8 50%);
+    width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .sidebar-logo {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Menu Items */
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Mỗi mục menu */
+  .sidebar-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #3A86FF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Mục menu được chọn */
+  .sidebar-menu-item.active {
+    background-color: #0045CC;
+  }
+  
+  /* Hiệu ứng hover */
+  .sidebar-menu-item:hover {
+    background-color: #0056E0;
+  }
+  
+  /* Nút đăng xuất */
+  .sidebar-logout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); 
+    color: #0045CC;
+  }
+  
+  .sidebar-logout:hover {
+    background-color: #ffffffcf;
+  }
+  
